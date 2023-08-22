@@ -1,12 +1,12 @@
 choice_begin=(input("welcome to the quiz..Are you ready?"))
-if choice_begin in ["yes,Yes"]:
+if choice_begin in ['yes','Yes']:
     print("Lets Get Started!")
 else:
     "break" 
 score=0
 #---------------------------------------------------------------------------------------------------------------------
 choice1=(input("In which year was the python language developed? "))    #Question no1
-if choice1=='1989':
+if choice1=='1991':
     score+=5
     print("Correct :)")
 else:
@@ -20,21 +20,21 @@ else:
     print("Incorrect :(")
 #---------------------------------------------------------------------------------------------------------------------
 choice3=(input("Python supports the creation of anonymous functions at runtime, using a construct called?"))   #Question no3
-if choice3 in ['lambda,Lambda']:
+if choice3 in ['lambda','Lambda']:
     score+=5
     print("Correct :)")
 else:
     print("Incorrect :(")
 #---------------------------------------------------------------------------------------------------------------------
 choice4=(input("What is output of print(math.pow(3,2)?"))             #Question no4
-if choice4=='9.0':
+if choice4 in ['9.0','9']:
     score+=5
     print("Correct :)")
 else:
     print("Incorrect :(")
 #---------------------------------------------------------------------------------------------------------------------
 choice5=(input("output for math.ceil(1.03)gives?"))                  #Question no5
-if choice5=='2.0':
+if choice5 in ['2.0','2']:
     score+=5
     print("Correct :)")
 else:
@@ -55,7 +55,7 @@ else:
     print("Incorrect :(")
 #---------------------------------------------------------------------------------------------------------------------
 choice8=(input("name a entry controlled loop"))                      #Question no7
-if choice8 in ["for,while"]:
+if choice8 in ['for','while']:
     score+=5
     print("Correct :)")
 else:
@@ -69,7 +69,7 @@ else:
     print("Incorrect:(")
 #----------------------------------------------------------------------------------------------------------------------
 choice10=(input("Which bus is unidirectional?"))                               #Question no8
-if choice10 in ["Control bus, control bus, CONTROL BUS"]:
+if choice10 in ['control bus','Control bus']:
     score+=5
     print("Correct :)")
 else:
